@@ -1,0 +1,33 @@
+{
+  "name": "@phading/user_servicce_db",
+  "version": "0.1.0",
+  "description": "user service database schema and update job",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phading-dev/user_servicce_db.git"
+  },
+  "author": "Yuxuan Xie <teststaybaka@gmail.com> (http://www.yuxuanxie.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/phading-dev/user_servicce_db/issues"
+  },
+  "homepage": "https://github.com/phading-dev/user_servicce_db#readme",
+  "files": [
+    "**/*.d.ts",
+    "**/*.js",
+    "**/*.json"
+  ],
+  "devDependencies": {
+    "@selfage/cli": "^5.0.0",
+    "@selfage/test_runner": "^5.0.1",
+    "@selfage/tsconfig": "^1.0.7",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@selfage/service_handler": "^4.5.0",
+    "aws-sdk": "^2.1668.0",
+    "get-stream": "^6.0.1",
+    "postgres": "^3.4.4"
+  }
+}
